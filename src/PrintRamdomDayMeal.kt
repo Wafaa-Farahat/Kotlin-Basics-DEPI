@@ -1,13 +1,7 @@
 fun main(){
     val meals= listOf("Pizza","Burger","Steak","Bread","Chicken")
     val daysOfWeek = listOf(
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
+        "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
     )
     for(day in daysOfWeek)
         randomDayMeal(days=daysOfWeek,meals=meals)
